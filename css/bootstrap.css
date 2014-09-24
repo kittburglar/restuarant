@@ -3868,8 +3868,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-static-top {
   z-index: 1000;
-  border-width: 0 0 1px;
-  
+  border-width: 0 0 0px;
+
 }
 @media (min-width: 768px) {
   .navbar-static-top {
@@ -4242,7 +4242,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #fff;
   background-color: transparent;
   display: table;
+  text-decoration: none;
+  margin-bottom: -2px;
   border-bottom: 2px solid;
+
 }
 .navbar-transparent .navbar-nav > .active > a,
 .navbar-transparent .navbar-nav > .active > a:hover,
@@ -4250,7 +4253,6 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #fff;
   background-color: #e7e7e7;
   display: table;
-  border-bottom: 2px solid;
 }
 .navbar-transparent .navbar-nav > .disabled > a,
 .navbar-transparent .navbar-nav > .disabled > a:hover,
@@ -4258,7 +4260,6 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
   background-color: transparent;
   display: table;
-  border-bottom: 2px solid;
 }
 .navbar-transparent .navbar-toggle {
   border-color: #ddd;
@@ -5949,11 +5950,13 @@ button.close {
 }
 .carousel {
   position: relative;
+  top: -70px;
 }
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
+  
 }
 .carousel-inner > .item {
   position: relative;
