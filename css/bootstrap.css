@@ -27,6 +27,7 @@ nav,
 section,
 summary {
   display: block;
+
 }
 audio,
 canvas,
@@ -240,6 +241,7 @@ th {
     background: #fff !important;
   }
   .navbar {
+
     display: none;
   }
   .table td,
@@ -932,9 +934,16 @@ img {
   vertical-align: middle;
 }
 
-html,body{height:100%;}
-.carousel,.item,.active{height:100%;}
-.carousel-inner{height:100%;}
+html,body{
+  height:100%;
+
+}
+.carousel,.item,.active{
+  height:100%;
+}
+.carousel-inner{
+  height:100%;
+}
 .fill{width:100%;height:100%;background-position:center;background-size:cover;}
 
 /* faster sliding speed */
@@ -4214,6 +4223,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 
 .navbar-transparent {
+
   background-color: transparent;
   border-color: transparent;
   font-family: "Roboto";
@@ -4341,11 +4351,11 @@ fieldset[disabled] .navbar-transparent .btn-link:focus {
 
 .navbar-inverse {
   background-color: #222;
-  border-color: #080808;
+  border-color: #222;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #777;
+  color: #fff;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4353,10 +4363,10 @@ fieldset[disabled] .navbar-transparent .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #777
+  color: #fff
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #777;
+  color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4403,7 +4413,7 @@ fieldset[disabled] .navbar-transparent .btn-link:focus {
     background-color: #080808;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #777;
+    color: #fff;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4424,7 +4434,7 @@ fieldset[disabled] .navbar-transparent .btn-link:focus {
   }
 }
 .navbar-inverse .navbar-link {
-  color: #777;
+  color: #fff;
 }
 .navbar-inverse .navbar-link:hover {
   color: #fff;
@@ -5950,7 +5960,10 @@ button.close {
 }
 .carousel {
   position: relative;
-  top: -70px;
+}
+
+.portion {
+  background-color: #222;
 }
 .carousel-inner {
   position: relative;
@@ -5959,6 +5972,7 @@ button.close {
   
 }
 .carousel-inner > .item {
+
   position: relative;
   display: none;
   -webkit-transition: .6s ease-in-out left;
@@ -6100,6 +6114,7 @@ button.close {
   background-color: #fff;
 }
 .carousel-caption {
+  font-family: "Roboto";
   position: absolute;
   right: 15%;
   bottom: 20px;
@@ -6173,6 +6188,7 @@ button.close {
 .modal-footer:after {
   display: table;
   content: " ";
+
 }
 .clearfix:after,
 .dl-horizontal dd:after,
