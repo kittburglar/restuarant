@@ -62,7 +62,6 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin: .67em 0;
   font-size: 2em;
 }
 mark {
@@ -969,6 +968,7 @@ html,body{
   display: block;
   width: 100% \9;
   max-width: 100%;
+  min-height: 100%;
   height: auto;
 }
 .img-rounded {
@@ -3801,7 +3801,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -3877,7 +3876,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-static-top {
   z-index: 1000;
-  border-width: 0 0 0px;
+  border-width: 0 0 1px;
 
 }
 @media (min-width: 768px) {
@@ -5964,6 +5963,7 @@ button.close {
 
 .portion {
   background-color: #222;
+
 }
 .carousel-inner {
   position: relative;
@@ -6455,6 +6455,20 @@ button.close {
   }
 }
 
+.content0 {
+  height: 100%;
+}
 
+.content1 {
+  padding-top: 60px;
+  color: #fff;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.map {
+  padding-top: 20px;
+  width: 100%;
+}
 
 /*# sourceMappingURL=bootstrap.css.map */
